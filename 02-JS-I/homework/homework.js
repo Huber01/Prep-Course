@@ -32,9 +32,6 @@ function devolverString(str) {
  return str;
 }
 
- devolverString("hola mundo");
-
-
 
 function suma(x, y) {
   // "x" e "y" son números
@@ -43,7 +40,6 @@ function suma(x, y) {
   var sumatoria = x + y;  
   return sumatoria;
 }
-suma(1,2);
 
 
 function resta(x, y) {
@@ -61,7 +57,6 @@ function multiplica(x, y) {
   var mult = x * y;
   return mult;
 }
-multiplica (2, 3); 
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
@@ -69,7 +64,7 @@ function divide(x, y) {
   var div = x / y;
   return div;
 }
-divide (6, 3); 
+
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
@@ -80,7 +75,6 @@ function sonIguales(x, y) {
   } 
   return false;
 }
-sonIguales (4, 5);
 
 
 function tienenMismaLongitud(str1, str2) {
@@ -92,7 +86,6 @@ function tienenMismaLongitud(str1, str2) {
   }
   return false;
 }
-tienenMismaLongitud("hola", "gato");
 
 
 function menosQueNoventa(num) {
@@ -104,7 +97,6 @@ function menosQueNoventa(num) {
   }
   return false;
 }
-menosQueNoventa(100);
 
 
 function mayorQueCincuenta(num) {
@@ -126,7 +118,6 @@ function obtenerResto(x, y) {
   return (x % y);
 }
 
-obtenerResto (20, 4);
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
@@ -150,7 +141,6 @@ function esImpar(num) {
   return false;
 }
 
-esImpar (5);
 
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
@@ -158,8 +148,6 @@ function elevarAlCuadrado(num) {
   // Tu código:
   return Math.pow(num,2)
 }
-
-elevarAlCuadrado(5);
 
 
 function elevarAlCubo(num) {
@@ -179,9 +167,6 @@ var potencia = num ** exponent
   return potencia; 
 }
 
-elevar(2, 2);
-
-
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
@@ -189,7 +174,7 @@ function redondearNumero(num) {
   return Math.round (num);
 }
 
-redondearNumero(6.8);
+
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
@@ -197,15 +182,13 @@ function redondearHaciaArriba(num) {
   return Math.ceil(num);
 }
 
-redondearHaciaArriba(4.1);
-
 
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
   return Math.random()
 }
-numeroRandom();
+
 
 function esPositivo(numero) {
   //La función va a recibir un entero. Devuelve como resultado una cadena de texto que indica si el número es positivo o negativo. 
@@ -220,7 +203,6 @@ function esPositivo(numero) {
 }
 return false;
 }
-esPositivo(0);
 
 
 function agregarSimboloExclamacion(str) {
@@ -230,7 +212,6 @@ function agregarSimboloExclamacion(str) {
   return str + "!";
 }
 
-agregarSimboloExclamacion("hola");
 
 function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
@@ -239,7 +220,6 @@ function combinarNombres(nombre, apellido) {
   return nombre + " " + apellido;
 }
 
-combinarNombres("Agus","Juan");
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
@@ -247,14 +227,13 @@ function obtenerSaludo(nombre) {
   // Tu código:
   return "Hola "+nombre+"!";
 }
-obtenerSaludo("Agus");
 
 function obtenerAreaRectangulo(alto, ancho) {
   // Retornar el area de un rectángulo teniendo su altura y ancho
   // Tu código:
   return alto * ancho;
 }
-obtenerAreaRectangulo(5, 2);
+
 
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
@@ -262,14 +241,13 @@ function retornarPerimetro(lado){
   return lado*4;
 }
 
-retornarPerimetro(2);
 
 function areaDelTriangulo(base, altura){
   //Desarrolle una función que calcule el área de un triángulo.
   //Escribe tu código aquí
   return (base*altura)/2;
 }
-areaDelTriangulo(3, 2);
+
 
 
 function deEuroAdolar(euro){
@@ -278,8 +256,6 @@ function deEuroAdolar(euro){
   //Escribe tu código aquí
   return euro*1.2;
 }
-deEuroAdolar(5);
-
 
 
 function esVocal(letra){
@@ -293,7 +269,6 @@ function esVocal(letra){
     return "Es vocal";} 
   return "Dato incorrecto";
 }
-esVocal ('a');
 
 
 
